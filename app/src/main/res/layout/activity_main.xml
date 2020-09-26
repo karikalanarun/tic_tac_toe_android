@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tictactoe.MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" tools:targetApi="lollipop" />
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_0_0"
+            style="@style/tic_tact_toe_btn"></Button>
+
+        <Button
+            android:id="@+id/btn_0_1"
+            style="@style/tic_tact_toe_btn"></Button>
+
+        <Button
+            android:id="@+id/btn_0_2"
+            style="@style/tic_tact_toe_btn"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_1_0"
+            style="@style/tic_tact_toe_btn"></Button>
+
+        <Button
+            android:id="@+id/btn_1_1"
+            style="@style/tic_tact_toe_btn"></Button>
+
+        <Button
+            android:id="@+id/btn_1_2"
+            style="@style/tic_tact_toe_btn"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_2_0"
+            style="@style/tic_tact_toe_btn"></Button>
+
+
+        <Button
+            android:id="@+id/btn_2_1"
+            style="@style/tic_tact_toe_btn"></Button>
+
+        <Button
+            android:id="@+id/btn_2_2"
+            style="@style/tic_tact_toe_btn"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
